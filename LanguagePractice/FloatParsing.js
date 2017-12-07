@@ -1,6 +1,6 @@
 //Jay Tayade
-//Weebly Coding Challenge
-function weeblyFloat(str)
+//Function to parse a string into a float
+function parseFloat(str)
 {
 	var res = str.split(".");
 	var placeVal = 1/10;
@@ -28,7 +28,7 @@ function weeblyFloat(str)
 }
 
 var str = "132.23";
-result = weeblyFloat(str);
+result = parseFloat(str);
 console.log(result);
 //To test the resulting type
 console.log(result + 2);
